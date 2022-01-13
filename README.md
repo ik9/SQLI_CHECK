@@ -1,16 +1,15 @@
 # SQLI_CHECK
 language : Python
-# some modulus 
 
 ### How to use:
 
-#### 1- Download The libres
+#### 1- Download The libraries
 
 #### Windows:
 ##### python install.py
 #### Linux:
 ##### python3 install.py
-##### Select your system and then it will install the libres used in the tool
+##### Select your system and then it will install the libraries used in the tool
 
 #### 2- Start Hacking:
 
@@ -23,4 +22,8 @@ language : Python
 
 Happy Hacking ^_^ 
 
-[Twitter](https://twitter.com/izox99 "Twitter")
+creator :
+[Twitter](https://twitter.com/izox99 "izox99")
+
+thank you:
+[Twitter](https://twitter.com/F14Commander "F14Commander")
