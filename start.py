@@ -19,8 +19,5 @@ try:
         if result == True:
             print(termcolor.colored("[+] This page " + url + " is infected", 'green'))
             break
-        # else:
-        #     print("SC : ",r.status_code)
-        #     print("Sorry, " + url + "/" + x)
 except Exception:
     print(termcolor.colored("", 'green'))
