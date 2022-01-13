@@ -2,12 +2,23 @@
 language : Python
 # some modulus 
 
-1 - pip install requests
+How to use:
 
-2 - pip install pyfiglet
+1- Download The libres
 
-3 - pip install termcolor
+Windows:
+python install.py
+Linux:
+python3 install.py
+Select your system and then it will install the libres used in the tool
 
+2- Start Hacking:
 
+Windows:
+python start.py
+Linux:
+python3 start.py
 
 Happy Hacking ^_^ 
+
+[Twitter](https://twitter.com/izox99 "Twitter")
