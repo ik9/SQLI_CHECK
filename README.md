@@ -23,7 +23,8 @@ language : Python
 Happy Hacking ^_^ 
 
 creator :
-[Twitter](https://twitter.com/izox99 "izox99")
+[izox99](https://twitter.com/izox99 "izox99")
 
 thank you:
-[Twitter](https://twitter.com/F14Commander "F14Commander")
+
+[F14Commander](https://twitter.com/F14Commander "F14Commander")
