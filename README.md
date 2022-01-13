@@ -1,33 +1,27 @@
 # SQLI_CHECK
 language : Python
+<hr>
+<h3>How to install:</h3>
 
-### How to use:
 
-#### 1- Download The libraries
+```git clone https://github.com/ik9/SQLI_CHECK```
 
-#### Windows:
-##### python install.py
-#### Linux:
-##### python3 install.py
-##### Select your system and then it will install the libraries used in the tool
+```python3 install.py```
 
-#### 2- Start Hacking:
+<h3>Usage:</h3>
 
-#### Windows:
-##### python start.py
-#### Linux:
-##### python3 start.py
+```python3 start.py -h```
 
-______________________________________________________________________________________________________________________________________________________________________
+```python3 start.py -t https://example.com/index.php?id= ```
 
-______________________________________________________________________________________________________________________________________________________________________
+<hr>
+<hr>
 
 
 Happy Hacking ^_^ 
 
-______________________________________________________________________________________________________________________________________________________________________
-
-______________________________________________________________________________________________________________________________________________________________________
+<hr>
+<hr>
 
 creator :
 [izox99](https://twitter.com/izox99 "izox99")
