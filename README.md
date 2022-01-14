@@ -6,6 +6,9 @@ language : Python
 
 ```git clone https://github.com/ik9/SQLI_CHECK```
 
+```cd SQLI_CHECK```
+
+
 ```python3 install.py```
 
 <h3>Usage:</h3>
