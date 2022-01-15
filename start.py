@@ -12,37 +12,37 @@ TL_NAME = termcolor.colored(TL_NAME_text, 'red')
 print(TL_NAME) 
 print(termcolor.colored('Created by izox\ntwitter : @izox99\n', 'blue'))
 
-# try:
-if options.target != None:
-    dictionary = open('dict.txt', 'r')
-    # url = 1
-    url = options.target
-    for x in dictionary:
-        r = requests.get(url + x.rstrip()).text
-        result = "mysql" in r
-        if result == True:
-            print(termcolor.colored("[+] The Payload is : " + x, 'green'))
-            break
-        else:
-            print(termcolor.colored("[-] Payload is not Found : " + x, 'red'))
-            
-elif options.urls != None:
-    # url > 1
-    urls = open(options.urls, 'r')
-    for url in urls:
+try:
+    if options.target != None:
         dictionary = open('dict.txt', 'r')
-        print(termcolor.colored(f"\n[%] url is : {url}", 'yellow'))
+        # url = 1
+        url = options.target
         for x in dictionary:
             r = requests.get(url + x.rstrip()).text
-            result = "mysql" in r.lower()
+            result = "mysql" in r
             if result == True:
                 print(termcolor.colored("[+] The Payload is : " + x, 'green'))
                 break
-            elif result == False:
+            else:
                 print(termcolor.colored("[-] Payload is not Found : " + x, 'red'))
-        
-else:
-    print(termcolor.colored("[-] sorry, try again", 'red'))
-    exit()
-# except Exception:
-#     print(termcolor.colored("[-] Error", 'red'))
+
+    elif options.urls != None:
+        # url > 1
+        urls = open(options.urls, 'r')
+        for url in urls:
+            dictionary = open('dict.txt', 'r')
+            print(termcolor.colored(f"\n[%] url is : {url}", 'yellow'))
+            for x in dictionary:
+                r = requests.get(url + x.rstrip()).text
+                result = "mysql" in r.lower()
+                if result == True:
+                    print(termcolor.colored("[+] The Payload is : " + x, 'green'))
+                    break
+                elif result == False:
+                    print(termcolor.colored("[-] Payload is not Found : " + x, 'red'))
+
+    else:
+        print(termcolor.colored("[-] sorry, try again", 'red'))
+        exit()
+except Exception:
+    print(termcolor.colored("[-] Error", 'red'))
